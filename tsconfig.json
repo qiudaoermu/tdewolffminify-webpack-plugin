@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "strict": true,
+    "declaration": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": false,
+    "lib": ["ESNext"],
+    "sourceMap": true,
+    "noEmitOnError": true,
+    "noImplicitAny": false,
+    "resolveJsonModule": true,
+    "outDir": "dist"
+
+  },
+  "exclude": ["node_modules", "playground", "dist"]
+}
