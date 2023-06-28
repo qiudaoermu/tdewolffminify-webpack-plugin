@@ -2436,8 +2436,7 @@ var _module = require('module');
 var _path = require('path');
 var _url = require('url');
 var require2 = _module.createRequire.call(void 0, importMetaUrl);
-var __dirname = path.join(process.cwd(), 'node_modules/tdewolffminify-webpack-plugin/node_modules/@tdewolff/minify');
-console.log(__dirname, "__dirname");
+var __dirname = process.cwd() + '/node_modules/tdewolffminify-webpack-plugin/node_modules/@tdewolff/minify';
 var {
   string,
   config,

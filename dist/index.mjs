@@ -2806,7 +2806,6 @@ import { dirname } from "path";
 import { fileURLToPath } from "url";
 var require2 = createRequire(import.meta.url);
 var __dirname = dirname(fileURLToPath(import.meta.url));
-console.log(__dirname, "__dirname");
 var { string, config, file } = require2("node-gyp-build")(__dirname);
 var version = require2("./package.json").version;
 

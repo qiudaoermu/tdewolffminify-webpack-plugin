@@ -18,7 +18,7 @@ traverse(ast, {
     declarations.forEach((declaration) => {
       if (declaration.node.id.name === '__dirname') {
         const replacement = parser.parseExpression(
-          "path.join(process.cwd(), 'node_modules/tdewolffminify-webpack-plugin/node_modules/@tdewolff/minify')"
+          "process.cwd() + '/node_modules/tdewolffminify-webpack-plugin/node_modules/@tdewolff/minify'"
         );
         declaration.node.init = replacement;
       }
