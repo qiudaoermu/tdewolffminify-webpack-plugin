@@ -2,6 +2,12 @@
 webpack plugin minify asset with [@tdewolff/minify](https://github.com/tdewolff/minify) base on **Go**
 
 
+## Require
+
+webpack >=5
+
+node.js >=16
+
 ## Install
 
 ```
